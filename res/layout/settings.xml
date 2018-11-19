@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:padding="5dp">
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:layout_height="0dp" android:layout_weight="0.10">
+        <ImageView android:layout_width="wrap_content" android:src="@drawable/logo_top" android:id="@+id/imageView1" android:layout_height="wrap_content"></ImageView>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="0dp" android:orientation="horizontal" android:layout_weight="0.025"></LinearLayout>
+    <LinearLayout android:id="@+id/LinearLayout02" android:layout_width="fill_parent" android:layout_height="0dp" android:baselineAligned="false" android:layout_weight="0.85">
+        <LinearLayout android:id="@+id/linearLayout2" android:layout_height="fill_parent" android:layout_width="0dp" android:orientation="horizontal" android:layout_weight="0.05"></LinearLayout>
+        <LinearLayout android:id="@+id/LinearLayout04" android:layout_height="fill_parent" android:layout_width="0dp" android:layout_weight="0.90">
+            <FrameLayout android:id="@+id/frameLayout1" android:layout_height="fill_parent" android:layout_width="fill_parent">
+                <ImageView android:layout_width="fill_parent" android:id="@+id/imageView2" android:layout_height="fill_parent" android:src="@drawable/b_register" android:scaleType="fitXY"></ImageView>
+                <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout3" android:layout_height="fill_parent">
+                    <FrameLayout android:id="@+id/frameLayout2" android:layout_height="fill_parent" android:layout_width="fill_parent" android:padding="20dp">
+                        <ImageView android:id="@+id/ImageView01" android:layout_height="fill_parent" android:layout_width="fill_parent" android:src="@drawable/p_settings" android:scaleType="fitXY"></ImageView>
+                        <LinearLayout android:id="@+id/linearLayout4" android:layout_height="fill_parent" android:orientation="vertical" android:layout_width="fill_parent">
+                            <LinearLayout android:id="@+id/linearLayout5" android:layout_width="fill_parent" android:layout_height="0dp" android:orientation="horizontal" android:layout_weight="0.25"></LinearLayout>
+                            <LinearLayout android:layout_height="0dp" android:id="@+id/LinearLayout31" android:baselineAligned="false" android:weightSum="1" android:layout_weight="0.08" android:layout_width="fill_parent">
+                                <LinearLayout android:layout_gravity="center" android:layout_height="wrap_content" android:id="@+id/LinearLayout30" android:paddingLeft="2dp" android:orientation="vertical" android:layout_weight="0.40" android:layout_width="wrap_content">
+                                    <TextView android:textColor="#690014" android:layout_gravity="center" android:layout_height="wrap_content" android:textSize="20dp" android:text="@string/server_address_grabber_name" android:layout_width="130dp" android:id="@+id/grabberIPLabel"></TextView>
+                                </LinearLayout>
+                                <LinearLayout android:layout_height="fill_parent" android:id="@+id/LinearLayout32" android:orientation="vertical" android:layout_weight="0.50" android:layout_width="wrap_content" android:padding="8dp">
+                                    <EditText android:layout_gravity="right" android:layout_height="fill_parent" android:padding="8dp" android:layout_weight="1" android:textSize="20dp" android:layout_width="fill_parent" android:background="@drawable/tb_register" android:textColor="#690014" android:id="@+id/grabberIP" android:inputType="text">
+                                        <requestFocus></requestFocus>
+                                    </EditText>
+                                </LinearLayout>
+                                <LinearLayout android:layout_height="fill_parent" android:id="@+id/LinearLayout33" android:orientation="vertical" android:layout_weight="0.10" android:layout_width="wrap_content"></LinearLayout>
+                            </LinearLayout>
+                            <LinearLayout android:id="@+id/LinearLayout12" android:layout_width="fill_parent" android:weightSum="1" android:layout_height="0dp" android:layout_weight="0.08"
+                                          android:baselineAligned="false">
+                                <LinearLayout android:id="@+id/LinearLayout17" android:layout_width="wrap_content" android:orientation="vertical" android:layout_gravity="center" android:layout_weight="0.40" android:layout_height="wrap_content" android:paddingLeft="2dp">
+                                    <TextView android:textSize="20dp" android:layout_gravity="center" android:layout_height="wrap_content" android:textColor="#690014" android:text="@string/server_address_loader_name" android:layout_width="130dp" android:id="@+id/loaderIPLabel"></TextView>
+                                </LinearLayout>
+                                <LinearLayout android:id="@+id/LinearLayout19" android:layout_width="wrap_content" android:orientation="vertical" android:layout_height="fill_parent" android:layout_weight="0.50" android:padding="8dp">
+                                    <EditText android:layout_gravity="right" android:layout_height="fill_parent" android:padding="8dp" android:layout_weight="1" android:textSize="20dp" android:layout_width="fill_parent" android:background="@drawable/tb_register" android:textColor="#690014" android:id="@+id/loaderIP" android:inputType="text"></EditText>
+                                </LinearLayout>
+                                <LinearLayout android:id="@+id/LinearLayout18" android:layout_width="wrap_content" android:orientation="vertical" android:layout_height="fill_parent" android:layout_weight="0.10"></LinearLayout>
+                            </LinearLayout>
+                            <LinearLayout android:id="@+id/LinearLayout20" android:layout_width="fill_parent" android:weightSum="1" android:layout_height="0dp" android:layout_weight="0.08"
+                                          android:baselineAligned="false">
+                                <LinearLayout android:id="@+id/LinearLayout21" android:layout_width="wrap_content" android:orientation="vertical" android:layout_gravity="center" android:layout_weight="0.40" android:layout_height="wrap_content" android:paddingLeft="2dp">
+                                    <TextView android:textSize="20dp" android:layout_gravity="center" android:layout_height="wrap_content" android:textColor="#690014" android:text="@string/server_port_grabber_name" android:layout_width="130dp" android:id="@+id/grabberPortLabel"></TextView>
+                                </LinearLayout>
+                                <LinearLayout android:id="@+id/LinearLayout23" android:layout_width="wrap_content" android:orientation="vertical" android:layout_height="fill_parent" android:padding="8dp" android:layout_weight="0.50">
+                                    <EditText android:layout_width="fill_parent" android:textColor="#690014" android:layout_weight="1" android:background="@drawable/tb_register" android:layout_gravity="right" android:layout_height="fill_parent" android:textSize="20dp" android:padding="8dp" android:id="@+id/grabberPort" android:inputType="numberDecimal"></EditText>
+                                </LinearLayout>
+                                <LinearLayout android:id="@+id/LinearLayout22" android:layout_width="wrap_content" android:orientation="vertical" android:layout_height="fill_parent" android:layout_weight="0.10"></LinearLayout>
+                            </LinearLayout>
+                            <LinearLayout android:id="@+id/LinearLayout24" android:layout_width="fill_parent" android:weightSum="1" android:layout_height="0dp" android:baselineAligned="false" android:layout_weight="0.08">
+                                <LinearLayout android:id="@+id/LinearLayout13" android:layout_width="wrap_content" android:orientation="vertical" android:layout_gravity="center" android:layout_weight="0.40" android:layout_height="wrap_content" android:paddingLeft="2dp">
+                                    <TextView android:textSize="20dp" android:layout_height="wrap_content" android:textColor="#690014" android:layout_gravity="center" android:layout_width="130dp" android:text="@string/server_port_loader_name" android:id="@+id/loaderPortLabel"></TextView>
+                                </LinearLayout>
+                                <LinearLayout android:id="@+id/LinearLayout25" android:layout_width="wrap_content" android:orientation="vertical" android:layout_height="fill_parent" android:padding="8dp" android:layout_weight="0.50">
+                                    <EditText android:layout_width="fill_parent" android:textColor="#690014" android:layout_weight="1" android:background="@drawable/tb_register" android:layout_gravity="right" android:layout_height="fill_parent" android:textSize="20dp" android:padding="8dp" android:inputType="numberDecimal" android:id="@+id/loaderPort"></EditText>
+                                </LinearLayout>
+                                <LinearLayout android:id="@+id/LinearLayout26" android:layout_width="wrap_content" android:orientation="vertical" android:layout_height="fill_parent" android:layout_weight="0.10"></LinearLayout>
+                            </LinearLayout>
+                            <LinearLayout android:id="@+id/LinearLayout10" android:layout_width="fill_parent" android:layout_height="0dp" android:orientation="horizontal" android:layout_weight="0.05"></LinearLayout>
+                            <LinearLayout android:id="@+id/LinearLayout06" android:layout_width="fill_parent" android:layout_height="0dp" android:weightSum="1" android:baselineAligned="false" android:layout_weight="0.15">
+                                <LinearLayout android:id="@+id/linearLayout6" android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.50" android:paddingRight="10dp"
+                                              android:orientation="horizontal">
+                                </LinearLayout>
+                                <LinearLayout android:id="@+id/LinearLayout07" android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.50" android:paddingLeft="10dp">
+                                    <ImageView android:src="@drawable/okbtn_n_button" android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/okBtn"></ImageView>
+                                </LinearLayout>
+                            </LinearLayout>
+                            <LinearLayout android:id="@+id/LinearLayout08" android:layout_width="fill_parent" android:layout_height="0dp" android:orientation="horizontal" android:layout_weight="0.05"></LinearLayout>
+                        </LinearLayout>
+                    </FrameLayout>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/LinearLayout05" android:layout_height="fill_parent" android:layout_width="0dp" android:orientation="horizontal" android:layout_weight="0.05"></LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/LinearLayout03" android:layout_width="fill_parent" android:layout_height="0dp" android:orientation="horizontal" android:layout_weight="0.025"></LinearLayout>
+</LinearLayout>

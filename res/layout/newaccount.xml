@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/bg"
+        >
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:layout_height="0dp" android:layout_weight="0.10">
+        <ImageView android:layout_width="wrap_content" android:src="@drawable/logo_top" android:id="@+id/imageView1" android:layout_height="wrap_content"></ImageView>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="0dp" android:layout_weight="0.20"
+                  android:orientation="horizontal"></LinearLayout>
+    <LinearLayout android:id="@+id/LinearLayout02" android:layout_width="fill_parent" android:layout_height="0dp" android:layout_weight="0.50"
+                  android:baselineAligned="false">
+        <LinearLayout android:id="@+id/linearLayout2" android:layout_height="fill_parent" android:layout_width="0dp" android:layout_weight="0.10"
+                      android:orientation="horizontal"></LinearLayout>
+        <LinearLayout android:id="@+id/LinearLayout04" android:layout_height="fill_parent" android:layout_width="0dp" android:layout_weight="0.80">
+            <FrameLayout android:id="@+id/frameLayout1" android:layout_height="fill_parent" android:layout_width="fill_parent">
+                <ImageView android:layout_width="fill_parent" android:src="@drawable/b_new_account" android:id="@+id/imageView2" android:layout_height="fill_parent" android:scaleType="fitXY"></ImageView>
+                <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout3" android:layout_height="fill_parent">
+                    <FrameLayout android:id="@+id/frameLayout2" android:layout_height="fill_parent" android:layout_width="fill_parent" android:padding="20dp">
+                        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/ImageView01" android:src="@drawable/p_new_account" android:scaleType="fitXY"></ImageView>
+                        <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout4" android:layout_height="fill_parent" android:orientation="vertical">
+                            <LinearLayout android:id="@+id/linearLayout5" android:layout_width="fill_parent" android:layout_height="0dp" android:layout_weight="0.50"
+                                          android:orientation="horizontal"></LinearLayout>
+                            <LinearLayout android:id="@+id/LinearLayout06" android:layout_width="fill_parent" android:layout_height="0dp" android:weightSum="1" android:layout_weight="0.40">
+                                <LinearLayout android:id="@+id/linearLayout6" android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.50" android:paddingRight="10dp">
+                                    <ImageView android:src="@drawable/yesbtn_n_button" android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/yesBtn"></ImageView>
+                                </LinearLayout>
+                                <LinearLayout android:id="@+id/LinearLayout07" android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.50" android:paddingLeft="10dp">
+                                    <ImageView android:src="@drawable/nobtn_n_button" android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/noBtn"></ImageView>
+                                </LinearLayout>
+                            </LinearLayout>
+                            <LinearLayout android:id="@+id/LinearLayout08" android:layout_width="fill_parent" android:layout_height="0dp" android:layout_weight="0.10"
+                                          android:orientation="horizontal"></LinearLayout>
+                        </LinearLayout>
+                    </FrameLayout>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/LinearLayout05" android:layout_height="fill_parent" android:layout_width="0dp" android:layout_weight="0.10"
+                      android:orientation="horizontal"></LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/LinearLayout03" android:layout_width="fill_parent" android:layout_height="0dp" android:layout_weight="0.20"
+                  android:orientation="horizontal"></LinearLayout>
+</LinearLayout>

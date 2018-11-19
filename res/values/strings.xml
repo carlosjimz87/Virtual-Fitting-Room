@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VirtualFittingRoom</string>
+    <string name="server_address_grabber">192.168.208.1</string>
+    <string name="server_address_grabber_name">Grabber IP:</string>
+    <string name="server_address_loader">192.168.208.1</string>
+    <string name="server_address_loader_name">Loader IP:</string>
+    <string name="server_port_grabber">10040</string>
+    <string name="server_port_grabber_name">Grabber Port:</string>
+    <string name="server_port_loader">10041</string>
+    <string name="server_port_loader_name">Loader Port:</string>
+    <string name="namespace">virtualTailor</string>
+    <string name="service">virtualTailor</string>
+    <string name="LoginButton">Login</string>
+    <string name="RegisterButton">Register</string>
+    <string name="newAccountButton">Yes</string>
+    <string name="newAccountNoButton">No</string>
+    <string name="New_Account_Text_View">New Account</string>
+    <string name="registerTexView">Register</string>
+    <string name="register_name">Name:</string>
+    <string name="register_gender">Gender:</string>
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="register_user">User:</string>
+    <string name="register_pin">PIN:</string>
+    <string name="register_confirm">Confirm:</string>
+    <string name="save_credentials">Save Credentials</string>
+    <string name="ok_register_button">OK</string>
+    <string name="empty_pin">Field PIN is empty.</string>
+    <string name="pin_corto">PIN need at least 4 characters.</string>
+    <string name="empty_user">Field USER is empty.</string>
+    
+    <string name="empty_loaderIP">Field Loader IP is empty.</string>
+    <string name="empty_grabberIP">Field Grabber IP is empty.</string>
+    <string name="empty_loaderPort">Field Loader Port is empty.</string>
+    <string name="empty_grabberPort">Field Grabber Port is empty.</string>
+    
+    <string name="login_error">Login error.</string>
+    <string name="register_error">Register error.</string>
+    <string name="operacion_curso">Loading...</string>
+    <string name="registrando">Registering...</string>
+    <string name="empty_name">Field NAME is empty.</string>
+    <string name="pin_no_coincide">PIN confirmation is invalid.</string>
+    <string name="wait_dialog_text_view">Wait...</string>
+    <string name="red_no_disponible">Network not available.</string>
+    <string name="server_not_found">Server not found.</string>
+    <string name="server_error">Server error.</string>
+    <string name="settings_saved">Settings saved.</string>
+
+</resources>
