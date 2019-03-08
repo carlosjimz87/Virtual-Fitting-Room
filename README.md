@@ -1,7 +1,5 @@
 # Virtual-Fitting-Room
-This app lets you try on virtual clothes before you buy using Augmented Reality services. 
-
-Here some screenshots.
+Virtual Fitting Room app lets you try garments through the Augmented Reality in order to choose the best fit.  
 
 ![alt text](https://imgur.com/RkR4wwb.jpg)
 
